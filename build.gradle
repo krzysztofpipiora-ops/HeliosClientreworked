@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     minecraft 'com.mojang:minecraft:1.21.4'
-    mappings 'net.fabricmc:yarn:1.21.4+build.4:intermediary'   // <-- to jest klucz (build.4)
+    mappings 'net.minecraft:mappings:1.21.4'   // oficjalne mappings Mojang
     modImplementation 'net.fabricmc:fabric-loader:0.16.9'
     modImplementation 'net.fabricmc.fabric-api:fabric-api:0.111.0+1.21.4'
 }
